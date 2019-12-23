@@ -1,6 +1,5 @@
 pipeline {
 agent any
-
     stages {
         stage('checkout') {
             steps {
@@ -11,7 +10,6 @@ agent any
             steps {
                bat 'python 1.py'
             }
-       
         }
     }
 }
